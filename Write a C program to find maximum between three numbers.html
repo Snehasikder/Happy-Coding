@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="/style.css">
+    <header>
+        <div class="header">
+      <h1> Write a C program to find maximum between three numbers:</h1>
+      </div>
+      <br>
+      <h3><u>Answer:</u></h3>
+      <h2>
+        <pre>
+      #include<stdio.h>    
+          int main(){
+          int a,b,c;
+          scanf("%d %d %d",&a,&b,&c);
+          if(a>b&&a>c){
+             printf("%d is the maximum number",a);
+                      }
+          else if(b>c&&b>a){
+                    printf("%d is the maximum number",b);
+                           }
+          else if(c>a&&c>b){
+                    printf("%d is the maximum number",c);
+                           }
+          else{
+                    printf("All three given numbers are equal");
+              }
+                return 0;
+                   }
+                </pre>
+      </h2>
+    </header>
+</body>
+</html>

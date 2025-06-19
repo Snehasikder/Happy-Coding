@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="/style.css">
+    <header>
+        <div class="header">
+      <h1>Write a C program to check whether a year is leap year or not:</h1>
+      </div>
+      <br>
+      <h3><u>Answer:</u></h3>
+      <h2>
+        <pre>
+      <div class="number">(01)</div>
+      #include<stdio.h>
+        int main(){
+        int y;
+        printf("Enter The Year= ");
+        scanf("%d",&y);
+        if((y%400==0)||(y%100!=0)&&(y%4==0)){
+          printf("%d is a Leap Year",y);
+        }
+        else{
+          printf("%d is not a Leap Year",y);
+        }
+        return 0;
+        }
+      <br>
+      <div class="number">(02)</div>
+      #include<stdio.h>
+        int main(){
+        int y;
+        printf("Enter The Year= ");
+        scanf("%d",&y);
+        if(y%400==0){
+          printf("%d is a Leap Year",y);
+        }
+        else if(y%100==0){
+          printf("%d is not a Leap Year",y);
+        }
+        else if(y%4==0){
+          printf("%d is a Leap Year",y);
+        }
+        else{
+          printf("%d is not a Leap Year",y);
+        }
+        return 0;
+        }
+        </pre>
+      </h2>
+    </header>
+</body>
+</html>

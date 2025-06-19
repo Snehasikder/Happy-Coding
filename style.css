@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(222, 196, 135);
+}
+.header{
+    background-color: palegoldenrod;
+    color: brown;
+}
+h3{
+    color: rgb(0, 157, 255);
+}
+.number{
+    color:blueviolet;
+}
+.number:hover{
+    background-color: bisque;
+    color: brown;
+}

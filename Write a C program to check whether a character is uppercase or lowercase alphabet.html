@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="/style.css">
+    <header>
+        <div class="header">
+      <h1>Write a C program to check whether a character is uppercase or lowercase alphabet:</h1>
+      </div>
+      <br>
+      <h3><u>Answer:</u></h3>
+      <h2>
+        <pre>
+    #include<stdio.h>
+       int main(){
+       char ch; 
+       printf("Enter The Character= ");
+       scanf("%c",&ch);
+       if(ch>='a'&&ch<='z'){
+                    printf("%c is a lowercase alphabet",ch);
+                }
+       else if(ch>='A'&&ch<='Z'){
+                    printf("%c is an uppercase alphabet",ch);
+                }
+       else{
+                    printf("invalid");
+                }
+       return 0;
+                }
+            </pre>
+      </h2>
+    </header>
+</body>
+</html>
